@@ -1,0 +1,8 @@
+option java_package="com.qing.netty3.protobuf.entity";
+option java_outer_classname="Player";
+message PBPlayer {
+	required int32 playId = 1;
+	optional int32 age = 2;
+	optional string name = 3;
+	repeated string skills = 4;
+}
